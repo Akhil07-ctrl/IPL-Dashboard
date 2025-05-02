@@ -7,7 +7,7 @@ import TeamMatches from './components/TeamMatches'
 import './App.css'
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename='/IPL-Dashboard'>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/team-matches/:id" element={<TeamMatches />} />
